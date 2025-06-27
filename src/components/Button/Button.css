@@ -1,0 +1,25 @@
+.custom-button {
+  padding: 13px 18px;
+  border: none;
+  background-color: #333;
+  color: #ffffffe0;
+  border-radius: 6px;
+  cursor: pointer;
+  font-weight: 400;
+  transition: background 0.3s ease;
+  margin-right: 14px;
+  width: fit-content;
+  font-family: 'Outfit';
+      font-size: 18px;
+
+}
+
+.custom-button:hover {
+  background-color: #111;
+}
+
+@media screen and (max-width: 800px) {
+    .custom-button {
+    margin-right: 0;
+  }
+}

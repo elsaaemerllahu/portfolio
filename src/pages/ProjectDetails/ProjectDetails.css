@@ -1,0 +1,158 @@
+.case-container {
+  display: flex;
+  flex-direction: column;
+  width: 60%;
+
+  color: #1a1a1a;
+  line-height: 1.8;
+      margin: 2rem auto 5rem auto;
+    background-color: #fbfbfb;
+    border-radius: 20px;
+        box-shadow: 0 8px 20px rgba(0, 0, 0, 0.1);
+padding-bottom: 3rem;
+text-align: justify;
+}
+
+.case-hero-container {
+  padding: 0 8rem;
+}
+.back-link {
+  display: block;
+  margin: 10px 0;
+  text-decoration: none;
+  color: #555;
+  font-size: 1rem;
+}
+
+.custom-showcase {
+  display: flex;
+  flex-direction: column;
+  gap: 1rem;
+}
+
+.case-links {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  gap: 1rem;
+      padding: 1rem 60px;
+}
+
+.case-links a {
+  text-decoration: none;
+  font-size: 18px;
+  opacity: 0.8;
+  font-family: 'Underdog', "Helvetica Neue", Helvetica, sans-serif;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+}
+
+.case-links a:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+
+.case-hero {
+  width: 100%;
+  border-radius: 16px;
+}
+
+.case-title {
+  font-size: 2.75rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+  padding: 0 8rem;
+}
+
+.case-subtitle {
+  font-size: 1.2rem;
+  color: #555;
+  margin-bottom: 3rem;
+    padding: 0 8rem;
+
+}
+
+.case-section {
+    padding: 0 8rem;
+
+}
+
+.case-section h2 {
+  font-size: 1.4rem;
+  margin-bottom: 1rem;
+  font-weight: lighter;
+  font-family: 'Underdog', "Helvetica Neue", Helvetica;
+}
+
+.case-section p,
+.case-section li {
+  font-size: 1.1rem;
+}
+
+.case-section ul {
+  padding-left: 1.4rem;
+  list-style: disc;
+}
+
+.dribbble-link, 
+.liveSite-link,
+.figma-link,
+.github-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  font-size: 1rem;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  text-decoration: none;
+  opacity: 0.8;
+}
+
+.dribbble-link:hover, 
+.liveSite-link:hover,
+.figma-link:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
+.dribbble-link {
+    color: #ea4c89;
+}
+.liveSite-link{
+  color: #147648;
+}
+
+.figma-link{
+  color: #F24E1E;
+}
+
+.github-link {
+    color: #024161; 
+}
+.case-section ul{
+  list-style: none;
+}
+
+@media screen and (max-width: 800px) {
+  .case-container {
+        padding: 1rem 2rem 2rem 2rem;
+    width: 75%;
+  }
+  .back-link {
+    margin: 0;
+  }
+  .case-subtitle, .case-title, .case-section, .case-links, .case-hero-container {
+    padding: 0;
+  }
+  .case-links span {
+    display: none;
+  }
+  .case-links {
+    padding-bottom: 1rem;
+  }
+  .case-subtitle {
+    margin-bottom: 1rem;
+    margin-top: 0;
+  }
+  .case-title {
+    margin-bottom: 0;
+  }
+}

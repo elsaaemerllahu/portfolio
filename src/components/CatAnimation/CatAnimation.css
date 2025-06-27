@@ -1,0 +1,54 @@
+.cat-animation {
+  position: fixed;
+  width: 120px;
+  z-index: 9999;
+  animation: catFullLoop 24s linear infinite;
+}
+
+@keyframes catFullLoop {
+  /* --- Bottom Walk: Left to Right (0% - 49%) --- */
+  0% {
+    top: auto;
+    bottom: 0;
+    left: -150px;
+    transform: scaleX(1);
+    opacity: 1;
+  }
+  49% {
+    top: auto;
+    bottom: 0;
+    left: 100vw;
+    transform: scaleX(1);
+    opacity: 0;
+  }
+
+  /* --- Hide between walks (49% - 50%) --- */
+  50% {
+    opacity: 0;
+  }
+
+  /* --- Top Walk: Right to Left (51% - 100%) --- */
+  51% {
+    top: 0;
+    bottom: auto;
+    left: 100vw;
+    transform: scaleX(-1) scaleY(-1);;
+    opacity: 1;
+  }
+  100% {
+    top: 0;
+    bottom: auto;
+    left: -150px;
+    transform: scaleX(-1) scaleY(-1);;
+    opacity: 0;
+  }
+}
+
+@media (max-width: 769px) {
+  .cat-walk-container {
+    display: none;
+  }
+  .cat-animation {
+    width: 100px; /* Resize cat animation */
+  }
+}

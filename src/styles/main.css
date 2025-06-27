@@ -1,0 +1,197 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: 'Outfit', sans-serif;
+  background-color: #f5f5f5;
+  color: #111;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+.project-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  width: 60%;
+  margin: 10rem auto 5rem auto;
+}
+
+.main-title {
+  font-size: 2.75rem;
+  margin-bottom: 1rem;
+  letter-spacing: -1px;
+      margin-top: 0;
+
+}
+
+.profile-card-wrapper {
+  grid-column: span 2;
+  margin-bottom: 2rem;
+}
+
+.project-card-wrapper {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  align-items: center;
+  gap: 2rem;
+}
+
+.project-grid {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+}
+
+.project-card {
+  overflow: hidden;
+  border-radius: 16px;
+  transition: transform 0.2s ease-in-out;
+  border: 1px solid rgba(0, 0, 0, 0.08);
+  padding: 1rem;
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.03);
+}
+
+.project-card img {
+  width: 100%;
+  height: auto;
+  display: block;
+  border-radius: 16px;
+}
+
+.project-card h2 {
+  font-size: 1.6rem;
+  margin-top: 1rem;
+  font-weight: normal;
+  margin-left: 10px;
+}
+
+.project-detail {
+  padding: 4rem;
+  text-align: center;
+}
+
+.project-detail .detail-image {
+  max-width: 50%;
+  height: auto;
+  border-radius: 16px;
+  margin-bottom: 2rem;
+}
+
+.project-detail h1 {
+  font-size: 3rem;
+  margin-bottom: 1rem;
+}
+
+.project-detail p {
+  font-size: 1.2rem;
+  color: #555;
+}
+
+.back-link {
+  display: inline-block;
+  margin-bottom: 2rem;
+  font-size: 1rem;
+  color: #333;
+}
+
+.dribbble-link,
+.liveSite-link,
+.figma-link,
+.github-link {
+  display: inline-block;
+  margin-top: 0.5rem;
+  transition: transform 0.3s ease, opacity 0.3s ease;
+  font-size: 0.9rem;
+  text-decoration: none;
+  opacity: 0.8;
+  margin-left: 10px;
+}
+
+.dribbble-link:hover,
+.liveSite-link:hover,
+.figma-link:hover {
+  opacity: 1;
+  transform: scale(1.05);
+}
+
+.liveSite-link {
+  color: #147648;
+}
+
+.figma-link {
+  color: #f24e1e;
+}
+.dribbble-link {
+    color: #ea4c89;
+}
+.github-link {
+    color: #5588a2;
+}
+
+@media (max-width: 1024px) {
+  .project-wrapper {
+    padding: 3rem 10rem;
+  }
+
+  .project-card-wrapper {
+    grid-template-columns: repeat(2, 1fr);
+  }
+}
+
+
+@media (max-width: 768px) {
+  .project-wrapper {
+    padding: 0;
+    gap: 80px;
+    margin: 8.5rem auto 4rem auto;
+    width: 85%;
+  }
+
+  .project-grid {
+    gap: 20px;
+  }
+
+  .main-title {
+    margin: 0;
+    padding-left: 10px;
+    font-size: 2rem;
+  }
+
+  .project-card-wrapper {
+    grid-template-columns: 1fr;
+  }
+
+  .profile-card-wrapper {
+    grid-column: span 1;
+        margin: .5rem 0 1rem 0;
+  }
+
+  .project-card {
+    padding: .7rem;
+  }
+
+  .project-card img {
+    max-width: 100%;
+    height: auto;
+  }
+
+  .project-card h2 {
+    font-size: 1.1rem;
+  }
+
+  .project-detail {
+    padding: 2rem;
+  }
+
+  .project-detail h1 {
+    font-size: 2rem;
+  }
+
+  .project-detail p {
+    font-size: 1rem;
+  }
+}
