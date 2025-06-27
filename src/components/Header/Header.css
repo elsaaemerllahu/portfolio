@@ -3,7 +3,7 @@
   position: fixed;
   top: 0;
   z-index: 1000;
-  margin-top: 2rem;
+  margin-top: 1rem;
   max-width: 1200px;
 }
 
@@ -47,7 +47,7 @@
 
 @media (max-width: 1025px) {
   .header-wrapper {
-    width: 85%;
+    width: 90%;
   }
 }
 
@@ -63,7 +63,7 @@
 }
 
 .header-wrapper {
-  width: 85%;
+  width: 90%;
 }
 
 .nav-links a {

@@ -141,6 +141,7 @@ outcome:
   id: "5",
   title: "E-learning App",
   image: elearning,
+  subtitle: "Helping Students and Teachers Stay Connected and Organized",
   sectionTitles: {
     mission: "Overview",
     problems: "Challenges in Online Learning",

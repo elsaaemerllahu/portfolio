@@ -328,6 +328,8 @@ width: 100%;
 
   .description-paragraphs {
     padding-right: 30px;
+            margin-top: -45px;
+
   }
 
   .about-image {
@@ -361,5 +363,10 @@ width: 100%;
   }
   .last-card img {
     width: 80px !important;
+  }
+  .spider-svg {
+    width: 79px;
+    margin-top: -23px;
+    margin-right: -5px;
   }
 }

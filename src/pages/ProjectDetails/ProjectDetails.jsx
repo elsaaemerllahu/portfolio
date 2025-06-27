@@ -77,9 +77,12 @@ const ProjectDetails = () => {
       >
         <img src={project.image} alt={project.title} className="case-hero" />
 
-      </motion.div>
-      <h1 className="case-title">{project.title}</h1>
+      <div>
+        <h1 className="case-title">{project.title}</h1>
       <p className="case-subtitle">{project.subtitle}</p>
+        </div>      
+        </motion.div>
+
       {project.custom ? (
         <div className="custom-showcase">
           <motion.div
@@ -88,15 +91,13 @@ const ProjectDetails = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.1 }}
             transition={{ duration: 0.3, ease: "easeOut" }}
+            className="case-section"
           >
-            {/* Overview */}
-            <section className="case-section">
               <h2>Overview</h2>
               <div className="text-image-pair">
                 <p>{project.overview}</p>
                 <img src={project.dashboardMac} alt="Dashboard" className="case-hero" />
               </div>
-            </section>
 
           </motion.div>
           {/* Features */}
@@ -132,14 +133,13 @@ const ProjectDetails = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.3 }}
             transition={{ duration: 0.6, ease: "easeOut" }}
+            className="case-section"
           >
-            <section className="case-section">
               <h2>Responsive Design</h2>
               <div className="text-image-pair">
                 <p>The app is fully responsive, adapting cleanly across devices from desktop to mobile.</p>
                 <img src={project.responsiveImg} alt="Responsive View" className="case-hero" />
               </div>
-            </section>
           </motion.div>
 
           <motion.div
@@ -148,13 +148,12 @@ const ProjectDetails = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.3 }}
             transition={{ duration: 0.5, ease: "easeOut" }}
+            className="case-section"
           >
             {/* Tech Stack */}
-            <section className="case-section">
               <h2>Tech Stack</h2>
               <p><strong>Frontend:</strong> {project.techStack.frontend.join(", ")}</p>
               <p><strong>Backend:</strong> {project.techStack.backend.join(", ")}</p>
-            </section>
           </motion.div>
 
           <motion.div
@@ -163,18 +162,15 @@ const ProjectDetails = () => {
             whileInView={{ opacity: 1, y: 0 }}
             viewport={{ once: true, amount: 0.1 }}
             transition={{ duration: 0.3, ease: "easeOut" }}
+            className="case-section"
           >
             {/* Dev Notes */}
-            <section className="case-section">
               <h2>Development Notes</h2>
               <div className="text-image-pair">
                 <p>{project.devNotes}</p>
                 <img src={project.imageDashboard} alt="dashboard" className="case-hero" />
               </div>
-            </section>
-
           </motion.div>
-
         </div>
 
 
@@ -187,12 +183,11 @@ const ProjectDetails = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.1 }}
               transition={{ duration: 0.3, ease: "easeOut" }}
+              className="case-section"
             >
-              <section className="case-section">
                 <h2>{project.sectionTitles?.mission}</h2>
                 <p>{project.mission}</p>
                 <img src={project.image1} alt="" className="case-hero" />
-              </section>
             </motion.div>
 
           )}
@@ -204,14 +199,13 @@ const ProjectDetails = () => {
               whileInView={{ opacity: 1, y: 0 }}
               viewport={{ once: true, amount: 0.1 }}
               transition={{ duration: 0.3, ease: "easeOut" }}
+              className="case-section"
             >
-              <section className="case-section">
                 <h2>{project.sectionTitles?.problems}</h2>
                 {project.problems.map((problem, i) => (
                   <p key={i}>{problem}</p>
                 ))}
                 <img src={project.image4} alt="" className="case-hero" />
-              </section>
             </motion.div>
 
           )}
@@ -244,8 +238,8 @@ const ProjectDetails = () => {
               transition={{ duration: 0.3, ease: "easeOut" }}
             >
               <section className="case-section">
-                <h2>{project.sectionTitles?.outcome}</h2>
-                <p>{project.outcome}</p>
+                <h2 style={{marginTop: '12px'}}>{project.sectionTitles?.outcome}</h2>
+                <p style={{marginBottom: '12px'}}>{project.outcome}</p>
                 <img src={project.image3} alt="" className="case-hero" />
               </section>
             </motion.div>
