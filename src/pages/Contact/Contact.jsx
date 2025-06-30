@@ -5,20 +5,30 @@ import "../Contact/Contact.css";
 import "../../components/Profile/Profile.css";
 import "../../styles/main.css";
 import { motion } from "framer-motion";
+  import emailjs from 'emailjs-com';
 
 const Contact = () => {
   const [showSuccessMessage, setShowSuccessMessage] = useState(false);
 
-  const handleSubmit = (e) => {
-    e.preventDefault();
-    // Simulate the action of sending the message (you could integrate your form submission here)
-    setShowSuccessMessage(true);
 
-    // Hide success message after 2.5 seconds
-    setTimeout(() => {
-      setShowSuccessMessage(false);
-    }, 2500);
-  };
+const handleSubmit = (e) => {
+  e.preventDefault();
+
+  emailjs.sendForm(
+    'service_cq8f5wg',
+    'template_byllzuh',
+    e.target,
+    'zj1mfvpsVvRJHt3P_'
+  )
+  .then((result) => {
+    setShowSuccessMessage(true);
+    setTimeout(() => setShowSuccessMessage(false), 2500);
+  })
+  .catch((error) => {
+    console.error('Email send error:', error);
+  });
+};
+
 
   return (
     <div className="project-wrapper">
@@ -39,17 +49,17 @@ const Contact = () => {
             <form className="contact-form" onSubmit={handleSubmit}>
               <div className="form-group">
                 <label>Name</label>
-                <input type="text" placeholder="Your Name" required />
+                <input name="name" type="text" placeholder="Your Name" required />
               </div>
 
               <div className="form-group">
                 <label>Email</label>
-                <input type="email" placeholder="you@example.com" required />
+                <input name="email" type="email" placeholder="you@example.com" required />
               </div>
 
               <div className="form-group">
                 <label>Message</label>
-                <textarea placeholder="Write your message here..." rows="5" required />
+                <textarea name="message" placeholder="Write your message here..." rows="5" required />
               </div>
 
               <Button type="submit" className="submit-button">Send Message</Button>

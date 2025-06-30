@@ -48,7 +48,7 @@ const handleConnectClick = () => {
         <Button onClick={handleCopyEmail}>Copy Email</Button>      
         </div>
       </div>
-      <img src={avatar} alt="User Avatar" className="avatar" />
+      <img src={avatar} alt="User Avatar" className="avatar" loading="lazy"/>
     </div>
   );
 };

@@ -1,11 +1,8 @@
 import { useState, useEffect } from "react";
 import { Link } from "react-router-dom";
 import "./Header.css";
-import { CgProfile } from "react-icons/cg";
 import { BsEnvelopeHeart } from "react-icons/bs";
-import { IoPersonCircleOutline, IoPersonOutline } from "react-icons/io5";
-import { RxPerson } from "react-icons/rx";
-import { GoPerson } from "react-icons/go";
+import { IoPersonCircleOutline } from "react-icons/io5";
 
 const Header = () => {
   const [isScrolled, setIsScrolled] = useState(false);

@@ -3,9 +3,8 @@ import projects from "../../data/projects";
 import { motion } from "framer-motion";
 import "../ProjectDetails/ProjectDetails.css";
 import { useNavigate } from "react-router-dom";
-import Header from "../../components/Header/Header";
 import Footer from "../../components/Footer/Footer";
-import { div } from "framer-motion/client";
+import ScrollToTop from "../../components/ScrollToTop/ScrollToTop";
 
 const ProjectDetails = () => {
   const { id } = useParams();
@@ -15,7 +14,7 @@ const ProjectDetails = () => {
   if (!project) return <p>Project not found</p>;
 
   const handleBack = () => {
-    navigate("/"); // Navigate to home page
+    navigate("/"); 
   };
   return (
     <div>
@@ -25,8 +24,9 @@ const ProjectDetails = () => {
       animate={{ opacity: 1 }}
       transition={{ duration: 0.6 }}
     >
-      <div className="case-links">
-        <Link to="/" className="back-link" onClick={handleBack}>← <span>Back</span></Link>
+      <div className="case-header">
+        <div className="case-links">
+        <Link to="/" className="back-link" onClick={handleBack}><p>← Back</p></Link>
         {project.dribbble && (
           <a
             href={project.dribbble}
@@ -76,12 +76,14 @@ const ProjectDetails = () => {
         className="case-hero-container"
       >
         <img src={project.image} alt={project.title} className="case-hero" />
-
       <div>
         <h1 className="case-title">{project.title}</h1>
       <p className="case-subtitle">{project.subtitle}</p>
         </div>      
         </motion.div>
+        </div>
+      
+
 
       {project.custom ? (
         <div className="custom-showcase">
@@ -140,20 +142,6 @@ const ProjectDetails = () => {
                 <p>The app is fully responsive, adapting cleanly across devices from desktop to mobile.</p>
                 <img src={project.responsiveImg} alt="Responsive View" className="case-hero" />
               </div>
-          </motion.div>
-
-          <motion.div
-            key={project.id}
-            initial={{ opacity: 0, y: 10 }}
-            whileInView={{ opacity: 1, y: 0 }}
-            viewport={{ once: true, amount: 0.3 }}
-            transition={{ duration: 0.5, ease: "easeOut" }}
-            className="case-section"
-          >
-            {/* Tech Stack */}
-              <h2>Tech Stack</h2>
-              <p><strong>Frontend:</strong> {project.techStack.frontend.join(", ")}</p>
-              <p><strong>Backend:</strong> {project.techStack.backend.join(", ")}</p>
           </motion.div>
 
           <motion.div
@@ -249,7 +237,7 @@ const ProjectDetails = () => {
       )}
     </motion.div>      
         <Footer />
-
+<ScrollToTop />
     </div>
     
   );

@@ -4,6 +4,7 @@ import projects from "../data/projects";
 import Header from "../components/Header/Header";
 import Profile from "../components/Profile/Profile";
 import Footer from "../components/Footer/Footer";
+import ScrollToTop from "../components/ScrollToTop/ScrollToTop";
 
 const Home = () => {
   return (
@@ -44,7 +45,7 @@ const Home = () => {
         </div>
       </div>
       <Footer />
-
+<ScrollToTop />
     </motion.div>
   );
 };

@@ -2,7 +2,6 @@ import "../About/About.css";
 import "../../styles/main.css";
 import elsa from "../../assets/elsa1.png";
 import Header from "../../components/Header/Header";
-import React, { useEffect, useState } from "react";
 import CatAnimation from "../../components/CatAnimation/CatAnimation";
 import react from "../../assets/react.png";
 import adobe from "../../assets/adobe.png";
@@ -15,21 +14,6 @@ import Footer from "../../components/Footer/Footer";
 import { motion } from "framer-motion";
 
 const About = () => {
-  const [scrolled, setScrolled] = useState(false);
-  useEffect(() => {
-    const handleScroll = () => {
-      const scrollTop = window.scrollY;
-      if (scrollTop > 100) {
-        setScrolled(true);
-      } else {
-        setScrolled(false);
-      }
-    };
-
-    window.addEventListener("scroll", handleScroll);
-    return () => window.removeEventListener("scroll", handleScroll);
-  }, []);
-
   return (
     <div>
       <div className="project-wrapper">
@@ -51,11 +35,11 @@ const About = () => {
                   combining creativity with clean, functional design.
                 </p>
               </div>
-              <img src={elsa} alt="Elsa Emerllahu" className="about-image" />
+              <img src={elsa} alt="Elsa Emerllahu" className="about-image" loading="lazy"/>
             </div>
             <div className="about-bio">
               <p className="about-description">
-                As a Computer Science student at Kadri Zeka University, I specialize in building visually engaging and user-focused websites. My main toolkit includes React for dynamic front-end experiences and PHP for handling powerful back-end logic.
+                As a Computer Science student at "Kadri Zeka" University, I specialize in building visually engaging and user-focused websites. My main toolkit includes React for dynamic front-end experiences and PHP for handling powerful back-end logic.
 
                 With a strong interest in UI/UX, I often complement my development work with design tools like Adobe Photoshop and Illustrator, blending code with creativity to deliver polished, responsive web interfaces.
               </p>
@@ -74,9 +58,9 @@ const About = () => {
                 <div className="flip-card">
                   <div className="flip-card-inner">
                     <div className="flip-card-front">
-                      <img src={react} alt="" />
-                       <p>React</p>
-                      </div>
+                      <img src={react} alt="react" loading="lazy"/>
+                      <p>React</p>
+                    </div>
                     <div className="flip-card-back">
                       <p>Dynamic UI with component-based design.</p></div>
                   </div>
@@ -86,15 +70,13 @@ const About = () => {
                 <div className="flip-card">
                   <div className="flip-card-inner">
                     <div className="flip-card-front">
-                      <img src={adobe} alt="" />
-    <p>
-                            Adobe Photoshop & Illustrator
-
-    </p>
-                      </div>
+                      <img src={adobe} alt="adobe" loading="lazy"/>
+                      <p>
+                        Adobe Photoshop & Illustrator
+                      </p>
+                    </div>
                     <div className="flip-card-back">
                       <p>Creative design meets precise visual storytelling.</p>
-
                     </div>
                   </div>
                 </div>
@@ -104,9 +86,9 @@ const About = () => {
                 <div className="flip-card">
                   <div className="flip-card-inner">
                     <div className="flip-card-front last-card">
-                      <img src={phphtmlcss} alt="" />
-                       <p>PHP, HTML/CSS</p>
-                      </div>
+                      <img src={phphtmlcss} alt="phphtmlcss" loading="lazy"/>
+                      <p>PHP, HTML/CSS</p>
+                    </div>
                     <div className="flip-card-back">
                       <p>Building responsive and accessible web foundations.</p>
                     </div>
@@ -118,9 +100,9 @@ const About = () => {
                 <div className="flip-card">
                   <div className="flip-card-inner">
                     <div className="flip-card-front">
-                      <img src={nodejs} alt="" />
-                       <p>Node.js</p>
-                      </div>
+                      <img src={nodejs} alt="nodejs" loading="lazy"/>
+                      <p>Node.js</p>
+                    </div>
                     <div className="flip-card-back">
                       <p>Scalable backends with clean, efficient APIs.</p>
                     </div>
@@ -132,8 +114,8 @@ const About = () => {
                 <div className="flip-card">
                   <div className="flip-card-inner">
                     <div className="flip-card-front">
-                      <img src={mongodb} alt="" />
-                       <p>MongoDB</p>
+                      <img src={mongodb} alt="mongodb" loading="lazy"/>
+                      <p>MongoDB</p>
                     </div>
                     <div className="flip-card-back">
                       <p>Flexible NoSQL data management at scale.</p>
@@ -146,10 +128,9 @@ const About = () => {
                 <div className="flip-card">
                   <div className="flip-card-inner">
                     <div className="flip-card-front">
-                      <img src={git} alt="" />
-
-                       <p>Git</p>
-                      </div>
+                      <img src={git} alt="git" loading="lazy"/>
+                      <p>Git</p>
+                    </div>
                     <div className="flip-card-back">
                       <p>Version control that keeps my code clean and collaborative.</p>
                     </div>
@@ -159,7 +140,7 @@ const About = () => {
             </div>
           </div>
           <div className="about-card-end">
-            <img src={spider} className="spider-svg" />
+            <img src={spider} className="spider-svg" alt="spider" />
             {/* <img src={coffee} className="lady-svg"/> */}
             <div className="description-paragraphs" >
 

@@ -1,0 +1,23 @@
+.scroll-to-top {
+  position: fixed;
+  bottom: 1rem;
+  right: 2rem;
+  color: #717171;
+  border: 1px solid #c8c8c8;
+  border-radius: 50%;
+  padding: 0.5rem 0.9rem;
+  cursor: pointer;
+  opacity: 0;
+  pointer-events: none;
+  transition: opacity 0.5s cubic-bezier(0.4, 0, 0.2, 1),
+              background-color 0.5s cubic-bezier(0.4, 0, 0.2, 1);
+  z-index: 1000;
+  font-size: 1.2rem;
+  background-color: #ffffff;
+}
+
+.scroll-to-top.visible {
+  opacity: 1;
+  pointer-events: auto;
+}
+

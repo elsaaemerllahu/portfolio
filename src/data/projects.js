@@ -49,10 +49,10 @@ const projects = [
     "The goals section highlights the key objectives and provides a brief description to show their relevance, giving users an understanding of what they should focus on and why it matters to their progress.",
     "Task management happens in a flexible Kanban layout. It's visual, interactive, and reflects real progress with drag-and-drop states.",
     "Tracked hours are automatically integrated into a reporting system,  with pie and bar charts that show overall task completion, alongside the number of tasks assigned to each user.",
-    "Lastly, the profile page brings everything together, allowing users to save changes to goals, tasks, and personal information, all within a secure and private space."
+    "Lastly, the profile page serves as a personal dashboard where users can manage their account details and view a history of activity related to goals and tasks, keeping everything organized and trackable in one place.",
   ],
   techStack: {
-    frontend: ["React", "React Router", "SCSS"],
+    frontend: ["React", "CSS"],
     backend: ["PHP", "MySQL"]
   },
 
@@ -85,57 +85,57 @@ const projects = [
     outcome: `As my first full branding project, CloudNine allowed me to stretch creatively and build something from scratch. It became a personal exercise in turning ideas into visual emotion and designing for a place that doesn’t yet exist, but feels like it could.`,
   
 },
-  {
-    id: "3",
-title: "Figma Travel App",
-subtitle: "Helping You Explore New Destinations with Ease",
-image: figma,
-image1: project,
-image2: project2,
-image3: project1,
+{
+  id: "3",
+  title: "Figma Travel App",
+  subtitle: "A Travel UI Concept Designed for Exploration and Clarity",
+  image: figma,
+  image1: project,
+  image2: project2,
+  image3: project1,
   sectionTitles: {
     mission: "Overview",
     problems: "Designing the Experience",
     solution: "Visual Direction",
     outcome: "Outcome"
   },
-figma: "https://www.figma.com/design/2T5VmQPZ1DbGp17rxrQ0OD/Roamly?node-id=0-1&t=6rKadpuX7p6kOdSF-1",
-mission:
-  "Roamly was born out of my love for exploring and my frustration with apps that make it harder than it should be. I wanted to create something that felt light and intuitive: a travel planning app that doesn’t overwhelm you with options, but gently guides you toward your next adventure.",
-problems: [
-  "I focused on clarity. That meant clean layouts, minimalist navigation, and enough white space to let destinations shine. The app features smart search, instant previews of places, and planning tools that are easy to use even when you're jetlagged."
-],
+  figma: "https://www.figma.com/design/2T5VmQPZ1DbGp17rxrQ0OD/Roamly?node-id=0-1&t=6rKadpuX7p6kOdSF-1",
+  mission:
+    "Roamly is a travel planning app UI I designed in Figma with the goal of helping users explore destinations effortlessly. It was inspired by my desire to simplify trip discovery and reduce friction in the planning process through a clean, intuitive interface.",
+  problems: [
+    "The design needed to balance exploration and structure. I implemented a tab-based navigation system, bold destination cards, and clean UI elements that guide users without overwhelming them. Clear call-to-actions and quick access to trip info were key priorities."
+  ],
+  solution: [
+    "The visual direction features a deep navy base with high-contrast yellow buttons, friendly icons, and crisp imagery. Typography is readable and inviting. The experience encourages browsing and booking through familiar patterns, making it easy to use even for first-time travelers."
+  ],
+  outcome:
+    "Roamly was built entirely in Figma as a mobile-first concept focused on simplicity, clarity, and confidence. It’s more than a design — it reflects my approach to solving UX problems by combining visual balance with functional clarity."
+},
 
-solution: [
-  "Everything from the icons to the typography was chosen to feel friendly and lightweight like a digital passport that’s never heavy in your pocket. The design emphasizes exploration without noise, giving users the confidence to plan without second-guessing."
-],
-outcome:
-  "Roamly was a UI/UX design project I created entirely in Figma. It’s clean, focused, and reflects the kind of product I’d want to use myself. It’s not just about travel. It’s about designing ease, clarity, and inspiration.",
-
-  },
-  {
+ {
   "id": "4",
   "title": "SMUSHS",
   "site": "http://smushs1.infinityfreeapp.com/",
-  "subtitle": "Helping Students Eat Smart, Even When Time Is Tight",
+  "subtitle": "Smart Nutrition Management for Students in Stressful Environments",
   "image": smushs,
   "image4": smushs2,
   "image3": smushs3,
   "sectionTitles": {
     "mission": "Overview",
-    "problems": "The Idea",
-    "solution": "How We Built It",
-    "outcome": "Outcome"
+    "problems": "The Challenge",
+    "solution": "Our Approach",
+    "outcome": "Results"
   },
-  "mission": "SMUSHS is a university-focused platform that simplifies healthy eating for students through personalized meal plans, dormitory meal tracking, supplement suggestions, and health progress monitoring. It’s tailored to student life, combining convenience, nutritional value, and daily structure all in one place.",
+  "mission": "SMUSHS is a comprehensive web-based platform designed to help university students, especially those in dormitories—maintain a balanced and personalized diet despite the time pressures and stress of academic life. It empowers students with tools to track their nutrition, select meal plans, review dormitory menus, monitor their weight and caloric intake, and receive supplement suggestions all in one place.",
   "problems": [
-    "University students often struggle to maintain a healthy diet due to limited time, lack of knowledge, or poor access to nutritious options. Managing meals, choosing the right supplements, and staying consistent with a health goal can feel overwhelming without the right tools or guidance."
+    "University students often neglect healthy eating due to stress, lack of time, or limited access to tailored nutrition options—especially those living in dormitories.",
+    "Students may struggle with choosing meals that suit their dietary preferences, tracking their health progress, or staying consistent with nutritional goals without structured tools or guidance."
   ],
   "solution": [
-    "SMUSHS was developed as a full-featured system with multiple modules, including: a meal plan (with daily recipes organized by goals and dietary needs), a dorm menu (where students can choose upcoming meals based on their preferences), supplements (to recommend supplements based on student goals like energy or weight management), and a statistics dashboard (that tracks weight, caloric intake, and generates insights to improve dietary habits).",
-    "The system includes roles for Administrators, Nutritionists, and Students. Administrators maintain the platform, nutritionists create content and offer guidance, and students actively use the platform to track, select, and improve their nutrition."
+    "SMUSHS features distinct modules for Administrators, Nutritionists, and Students. Administrators manage content (like meals, recipes, menus, and supplements), monitor usage, and maintain the FAQ. Nutritionists provide expert-curated content. Students can log in to build personal meal plans, access dormitory menus, choose supplements based on goals, and monitor weight and calorie data.",
+    "The platform supports full meal plan customization (for breakfast, lunch, dinner), filtering by dietary types (e.g., vegan, gluten-free, low-calorie), a wishlist system, a visual dashboard of health progress, and reminder emails for daily plans. Students also benefit from an FAQ system and profile personalization."
   ],
-  "outcome": "SMUSHS was demoed as part of a university health initiative and got great feedback for its clarity, simplicity, and ability to meet students where they are stressed, hungry, and in a hurry.",
+  "outcome": "SMUSHS was demoed as part of a university health initiative and got great feedback for its clarity, simplicity, and ability to meet students where they are stressed, hungry, and in a hurry."
 },
 {
   id: "5",

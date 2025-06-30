@@ -9,7 +9,7 @@ const ProjectCard = ({ project }) => {
       transition={{ duration: 0.3 }}
     >
       <Link to={`/project/${project.id}`}>
-        <img src={project.image} alt={project.title} />
+        <img src={project.image} alt={project.title} loading="lazy"/>
         <h2>{project.title}</h2>
       </Link>
 
