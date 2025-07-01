@@ -95,7 +95,7 @@ const ProjectDetails = () => {
                 <div className="text-image-pair">
                   <p>{project.overview}</p>
                   <motion.img
-                    src={project.dashboardMac} alt="Dashboard" className="case-hero"
+                    src={project.dashboardMac} alt="" className="case-hero"
                     loading="lazy"
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
@@ -142,7 +142,7 @@ const ProjectDetails = () => {
                 <h2>Responsive Design</h2>
                 <div className="text-image-pair">
                   <p>The app is fully responsive, adapting cleanly across devices from desktop to mobile.</p>
-                  <img src={project.responsiveImg} alt="Responsive View" className="case-hero" />
+                  <img src={project.responsiveImg} alt="" className="case-hero" />
                 </div>
               </motion.div>
 
@@ -160,7 +160,7 @@ const ProjectDetails = () => {
                   <p>{project.devNotes}</p>
                   <motion.img
                     src={project.imageDashboard}
-                    alt="DashboardView"
+                    alt=""
                     className="case-hero"
                     loading="lazy"
                     initial={{ opacity: 0 }}
@@ -184,7 +184,7 @@ const ProjectDetails = () => {
                   <h2>{project.sectionTitles?.mission}</h2>
                   <p>{project.mission}</p>
                   <motion.img
-                    src={project.image1} alt="imageMission" className="case-hero"
+                    src={project.image1} alt="" className="case-hero"
                     loading="lazy"
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
@@ -206,7 +206,7 @@ const ProjectDetails = () => {
                     <p key={i}>{problem}</p>
                   ))}
                   <motion.img
-                    src={project.image4} alt="imageProblem" className="case-hero"
+                    src={project.image4} alt="" className="case-hero"
                     loading="lazy"
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
@@ -230,7 +230,7 @@ const ProjectDetails = () => {
                     <p key={i}>{item}</p>
                   ))}
                   <motion.img
-                    src={project.image2} alt="imageSolution" className="case-hero"
+                    src={project.image2} alt="" className="case-hero"
                     loading="lazy"
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
@@ -253,7 +253,7 @@ const ProjectDetails = () => {
                   <h2 style={{ marginTop: '12px' }}>{project.sectionTitles?.outcome}</h2>
                   <p style={{ marginBottom: '12px' }}>{project.outcome}</p>
                   <motion.img
-                    src={project.image3} alt="imageOutcome" className="case-hero"
+                    src={project.image3} alt="" className="case-hero"
                     loading="lazy"
                     initial={{ opacity: 0 }}
                     animate={{ opacity: 1 }}
