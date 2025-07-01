@@ -146,9 +146,9 @@ a {
 @media (max-width: 768px) {
   .project-wrapper {
     padding: 0;
-    gap: 80px;
-    margin: 7rem auto 4rem auto;
+    margin: 7rem auto 3rem auto;
     width: 90%;
+    align-items: center;
   }
 
   .project-grid {
