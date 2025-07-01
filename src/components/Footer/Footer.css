@@ -3,7 +3,7 @@
   color: #000000;
   text-align: center;
   width: 60%;
-  margin: 0 auto 5rem auto;
+  margin: 0 auto 2rem auto;
 }
 
 .footer-content {
@@ -14,17 +14,16 @@
 
 .footer-content p {
   margin-bottom: 2rem;
-  font-size: 5rem;
+  font-size: 4.75rem;
   color: #282828;
   text-align: center;
-  margin-top: 4rem;
+  margin-top: 2rem;
 }
 
 .social-links {
   display: flex;
   gap: 1.5rem;
   justify-content: end;
-
 }
 
 .socials {

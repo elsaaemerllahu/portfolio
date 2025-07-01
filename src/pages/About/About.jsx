@@ -35,7 +35,15 @@ const About = () => {
                   combining creativity with clean, functional design.
                 </p>
               </div>
-              <img src={elsa} alt="Elsa Emerllahu" className="about-image" loading="lazy"/>
+<motion.img
+  src={elsa}
+  alt="Elsa Emerllahu"
+  className="about-image"
+  loading="lazy"
+  initial={{ opacity: 0 }}
+  animate={{ opacity: 1 }}
+  transition={{ duration: 0.8 }}
+/>
             </div>
             <div className="about-bio">
               <p className="about-description">
