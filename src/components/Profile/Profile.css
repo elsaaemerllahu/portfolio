@@ -126,7 +126,7 @@
   }  
 }
 
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .profile-card {
     flex-direction: column-reverse;
     padding: 20px;

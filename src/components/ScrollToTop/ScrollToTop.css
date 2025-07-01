@@ -1,11 +1,11 @@
 .scroll-to-top {
   position: fixed;
-  bottom: 30rem;
+  bottom: 1rem;
   right: 2rem;
   color: #717171;
   border: 1px solid #c8c8c8;
   border-radius: 50%;
-  padding: 0.6rem 1rem;
+  padding: 0.6rem .9rem;  
   cursor: pointer;
   opacity: 0;
   pointer-events: none;
