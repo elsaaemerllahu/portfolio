@@ -13,15 +13,15 @@ const ProjectCard = ({ project }) => {
         <h2>{project.title}</h2>
       </Link>
 
-      {/* External Dribbble link */}
-      {project.dribbble && (
+      {/* External behance link */}
+      {project.behance && (
         <a
-          href={project.dribbble}
+          href={project.behance}
           target="_blank"
           rel="noopener noreferrer"
-          className="dribbble-link"
+          className="behance-link"
         >
-          View on Dribbble
+          View on Behance
         </a>
       )}
       {project.figma && (

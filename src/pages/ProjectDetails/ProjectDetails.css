@@ -120,7 +120,7 @@ padding: 0;
   list-style: disc;
 }
 
-.dribbble-link,
+.behance-link,
 .liveSite-link,
 .figma-link,
 .github-link {
@@ -132,15 +132,15 @@ padding: 0;
   opacity: 0.8;
 }
 
-.dribbble-link:hover,
+.behance-link:hover,
 .liveSite-link:hover,
 .figma-link:hover {
   opacity: 1;
   transform: scale(1.05);
 }
 
-.dribbble-link {
-  color: #ea4c89;
+.behance-link {
+  color: #1769ff;
 }
 
 .liveSite-link {

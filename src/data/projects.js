@@ -72,7 +72,7 @@ const projects = [
     outcome: "Outcome"
   },
   description: "A cozy brand identity for a fictional café",
-  dribbble: "https://dribbble.com/shots/25985873-Cloud-Nine-Brand-Identity?utm_source=Clipboard_Shot&utm_campaign=elsaaee&utm_content=Cloud%20Nine%20-%20Brand%20Identity&utm_medium=Social_Share&utm_source=Clipboard_Shot&utm_campaign=elsaaee&utm_content=Cloud%20Nine%20-%20Brand%20Identity&utm_medium=Social_Share",
+  behance: "https://www.behance.net/gallery/229940803/Cloud-Nine/modules/1317728989",
   subtitle: "A Fictional Café Brand for Warm Moments and Creative Energy",
   
     mission: `CloudNine is a fictional coffee brand designed to feel like home. A calming, familiar space where students and creatives can study, work, or simply unwind with friends. The goal was to design an identity that brings warmth, inspiration, and a touch of escape.`,

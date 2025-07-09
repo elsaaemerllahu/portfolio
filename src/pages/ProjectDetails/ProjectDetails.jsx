@@ -6,7 +6,7 @@ import { useNavigate } from "react-router-dom";
 import Footer from "../../components/Footer/Footer";
 import ScrollToTop from "../../components/ScrollToTop/ScrollToTop";
 import Header from "../../components/Header/Header";
-import { FaGithub, FaDribbble, FaFigma, FaExternalLinkAlt } from "react-icons/fa";
+import { FaGithub, FaFigma, FaExternalLinkAlt, FaBehance } from "react-icons/fa";
 
 
 const ProjectDetails = () => {
@@ -43,9 +43,9 @@ const ProjectDetails = () => {
                   <p>← Back</p>
                 </Link>
 
-                {project.dribbble && (
-                  <a href={project.dribbble} className="dribbble-link" target="_blank" rel="noopener noreferrer">
-                    Dribbble <FaDribbble />
+                {project.behance && (
+                  <a href={project.behance} className="behance-link" target="_blank" rel="noopener noreferrer">
+                    Behance <FaBehance />
                   </a>
                 )}
 
