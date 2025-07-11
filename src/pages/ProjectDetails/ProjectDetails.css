@@ -69,6 +69,13 @@
   border-radius: 16px;
 }
 
+.case-hero-cover {
+  width: 100%;
+  border-radius: 16px;
+  object-fit: cover;
+  height: 400px;
+}
+
 .case-title {
   font-size: 2.75rem;
   font-weight: 400;
@@ -218,5 +225,8 @@ padding: 0;
     display: flex;
     flex-direction: column;
     gap: 10px;
+  }
+  .case-hero-cover {
+    height: unset;
   }
 }

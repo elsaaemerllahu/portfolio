@@ -68,7 +68,7 @@ const ProjectDetails = () => {
                 )}
               </div>
               <motion.img
-                src={project.image} alt={project.title} className="case-hero"
+                src={project.image} alt={project.title} className="case-hero-cover"
                 loading="lazy"
                 initial={{ opacity: 0 }}
                 animate={{ opacity: 1 }}
@@ -91,7 +91,7 @@ const ProjectDetails = () => {
                 transition={{ duration: 0.3, ease: "easeOut" }}
                 className="case-section"
               >
-                <h2>Overview</h2>
+                <h2>{project.sectionTitles?.mission}</h2>
                 <div className="text-image-pair">
                   <p>{project.overview}</p>
                   <motion.img
@@ -106,7 +106,7 @@ const ProjectDetails = () => {
               </motion.div>
               {/* Features */}
               <section className="case-section">
-                <h2>Key Features</h2>
+                <h2>{project.sectionTitles?.problems}</h2>
                 {project.features.map((item, index) => (
                   <motion.div
                     className="text-image-pair"
@@ -139,9 +139,9 @@ const ProjectDetails = () => {
                 transition={{ duration: 0.6, ease: "easeOut" }}
                 className="case-section"
               >
-                <h2>Responsive Design</h2>
+                <h2>{project.sectionTitles?.solution}</h2>
                 <div className="text-image-pair">
-                  <p>The app is fully responsive, adapting cleanly across devices from desktop to mobile.</p>
+                  <p>{project.responsive}</p>
                   <img src={project.responsiveImg} alt="" className="case-hero" />
                 </div>
               </motion.div>
@@ -155,7 +155,7 @@ const ProjectDetails = () => {
                 className="case-section"
               >
                 {/* Dev Notes */}
-                <h2>Development Notes</h2>
+                <h2>{project.sectionTitles?.outcome}</h2>
                 <div className="text-image-pair">
                   <p>{project.devNotes}</p>
                   <motion.img

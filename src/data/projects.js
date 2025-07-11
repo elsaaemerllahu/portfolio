@@ -19,9 +19,56 @@ import tasksparkTasks from "../assets/tasksparkTasks.png";
 import responsiveImg from "../assets/responsive.png";
 import dashboardMac from "../assets/dashboardmac.png";
 
+import eighthsenseCover from "../assets/cover ES.jpg";
+import eighthsensePoster from "../assets/OUTSIDE POSTER.png";
+import eighthsenseProfile from "../assets/IG PROFILE.png";
+import eighthsenseWristband from "../assets/WRISTBANDS.png";
+import eighthsenseShirt from "../assets/SHIRT.jpg";
+import eighthsenseTickets from "../assets/TICKETS.png";
+import eighthsenseBillboard from "../assets/BILLBOARD.png";
+
+
 const projects = [
-{
+  {
   id: "1",
+  title: "Eighth SeNSe",
+  custom: true,
+  behance: "https://www.behance.net/gallery/230125537/Eighth-Sense-Brand-Identity",
+
+  image: eighthsenseCover,
+  image1: eighthsensePoster,
+  imageDashboard:  eighthsensePoster,
+  imageGoals: eighthsenseShirt,
+  imageTasks: eighthsenseProfile,
+  imageReporting: eighthsenseWristband,
+  imageProfile: eighthsenseBillboard,
+  responsiveImg: eighthsenseTickets,
+    dashboardMac: eighthsenseBillboard,
+
+  sectionTitles: {
+    mission: "The Concept",
+    problems: "Shaping a Sensory World",
+    outcome: "Memories in Fragments"
+  },
+
+  subtitle: "A fictional festival where perception becomes the headliner",
+
+  overview: `Eighth Sense is an imagined festival that lives at the edge of perception. The event unfolds over three surreal days, somewhere hazy, somewhere real. It’s designed to feel like a glitch in your regular sensory programming. If the five senses define our physical world, and the sixth is intuition, what comes next? This festival explores the layer that exists just beneath conscious thought. The warmth you feel when something simply makes sense.`,
+
+  features: [
+    "A dreamy gradient and soft grain texture form the visual core, creating familiarity with a touch of dissonance.",
+    "The badge card was designed to reflect role-specific access, while surreal sticker icons like broken 8 balls, swirls, and eyeballs hinted at perception beyond the surface.",
+    "Mockups for social media include countdown graphics, promotional images like “Get your ticket now” and “VIP tickets out,” quote cards, and photos from previous festivals that blur boundaries between sight, sound, and memory.",
+        "Merchandise and wristbands follow the same surreal but clean aesthetic, reinforcing that the experience extends beyond the visual moment.",     
+    "The festival tickets use layered textures and soft fades to create a tactile, delicate look that feels light and temporary. The design emphasizes a subtle, sensory experience that connects with the overall brand.",
+
+  ],
+
+
+  devNotes: `Eighth Sense allowed me to go beyond literal visuals and design something that’s felt, not just seen. It challenged me to craft atmosphere and memory fragments instead of simply presenting information. This project pushed me to think about how design can evoke emotion and sensation through texture, layering, and subtle visual cues, creating an experience that resonates on a deeper, almost intangible level.`
+},
+{
+  id: "2",
   title: "TaskSpark",
   custom: true,
     github: "https://github.com/elsaaemerllahu/taskspark.git",
@@ -41,6 +88,12 @@ const projects = [
     solution: "How I Brought It to Life",
     outcome: "Reflection"
   },
+    sectionTitles: {
+    mission: "Overview",
+    problems: "Key Features",
+    solution: "Responsive Design",
+    outcome: "Development Notes"
+  },
   subtitle: "Turning chaos into clarity through productivity and structure",
   overview: `TaskSpark is a responsive full-stack application that helps users plan, manage, and reflect on their daily productivity. It started as a landing page, designed to feel simple and welcoming, with a smooth transition into a personalized dashboard after login.`,
 
@@ -56,10 +109,12 @@ const projects = [
     backend: ["PHP", "MySQL"]
   },
 
-  devNotes: `What I loved most about building TaskSpark was watching it evolve from a simple concept into a fully functional platform. It pushed me to handle both frontend and backend challenges in the same project and gave me the confidence to build independently.`
+  responsiveHeader: "Responsive Design",
+  responsive: "The app is fully responsive, adapting cleanly across devices from desktop to mobile",
+    devNotes: `What I loved most about building TaskSpark was watching it evolve from a simple concept into a fully functional platform. It pushed me to handle both frontend and backend challenges in the same project and gave me the confidence to build independently.`
 },
  {
-  id: "2",
+  id: "3",
   title: "CloudNine Coffee",
   image: coverImage,
   image1: posters,
@@ -86,7 +141,7 @@ const projects = [
   
 },
 {
-  id: "3",
+  id: "4",
   title: "Figma Travel App",
   subtitle: "A Travel UI Concept Designed for Exploration and Clarity",
   image: figma,
@@ -113,7 +168,7 @@ const projects = [
 },
 
  {
-  "id": "4",
+  "id": "5",
   "title": "SMUSHS",
   "site": "http://smushs1.infinityfreeapp.com/",
   "subtitle": "Smart Nutrition Management for Students in Stressful Environments",
@@ -138,7 +193,7 @@ const projects = [
   "outcome": "SMUSHS was demoed as part of a university health initiative and got great feedback for its clarity, simplicity, and ability to meet students where they are stressed, hungry, and in a hurry."
 },
 {
-  id: "5",
+  id: "6",
   title: "E-learning App",
   image: elearning,
   subtitle: "Helping Students and Teachers Stay Connected and Organized",
