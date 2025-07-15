@@ -32,7 +32,7 @@ import thumbnail5 from "../assets/thumbnail5.jpg";
 import thumbnail6 from "../assets/thumbnail6.jpg";
 import thumbnail8 from "../assets/thumbnail8.jpg";
 import youtube from "../assets/youtube (1).png";
-import thumbnail from "../assets/coverThumbnail.png";
+import thumbnail from "../assets/coverTh.png";
 
 const projects = [
   {
