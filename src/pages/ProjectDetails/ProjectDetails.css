@@ -130,18 +130,23 @@ padding: 0;
 .behance-link,
 .liveSite-link,
 .figma-link,
-.github-link {
+.github-link,
+.behance-link {
   display: inline-block;
   margin-top: 0.5rem;
   font-size: 1rem;
   transition: transform 0.3s ease, opacity 0.3s ease;
   text-decoration: none;
   opacity: 0.8;
+    margin-left: 10px;
+
 }
 
 .behance-link:hover,
 .liveSite-link:hover,
-.figma-link:hover {
+.figma-link:hover,
+.behance-link:hover,
+.github-link:hover {
   opacity: 1;
   transform: scale(1.05);
 }
