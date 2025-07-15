@@ -171,7 +171,7 @@ const projects = [
   id: "5",
   title: "Thumbnail Designs",
   custom: true,
-  behance: "",
+  behance: "https://www.behance.net/gallery/230423959/Thumbnail-Designs",
 
   image: thumbnail,
   image1: thumbnail2,
