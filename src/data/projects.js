@@ -18,7 +18,6 @@ import tasksparkProfile from "../assets/tasksparkProfile.png";
 import tasksparkTasks from "../assets/tasksparkTasks.png";
 import responsiveImg from "../assets/responsive.png";
 import dashboardMac from "../assets/dashboardmac.png";
-
 import eighthsenseCover from "../assets/cover ES.jpg";
 import eighthsensePoster from "../assets/OUTSIDE POSTER.png";
 import eighthsenseProfile from "../assets/IG PROFILE.png";
@@ -26,7 +25,14 @@ import eighthsenseWristband from "../assets/WRISTBANDS.png";
 import eighthsenseShirt from "../assets/SHIRT.jpg";
 import eighthsenseTickets from "../assets/TICKETS.png";
 import eighthsenseBillboard from "../assets/BILLBOARD.png";
-
+import thumbnail2 from "../assets/thumbnail2.jpg";
+import thumbnail3 from "../assets/thumbnail3.jpg";
+import thumbnail4 from "../assets/thumbnail4.png";
+import thumbnail5 from "../assets/thumbnail5.jpg";
+import thumbnail6 from "../assets/thumbnail6.jpg";
+import thumbnail8 from "../assets/thumbnail8.jpg";
+import youtube from "../assets/youtube (1).png";
+import thumbnail from "../assets/coverThumbnail.png";
 
 const projects = [
   {
@@ -56,7 +62,7 @@ const projects = [
   overview: `Eighth Sense is an imagined festival that lives at the edge of perception. The event unfolds over three surreal days, somewhere hazy, somewhere real. It’s designed to feel like a glitch in your regular sensory programming. If the five senses define our physical world, and the sixth is intuition, what comes next? This festival explores the layer that exists just beneath conscious thought. The warmth you feel when something simply makes sense.`,
 
   features: [
-    "A dreamy gradient and soft grain texture form the visual core, creating familiarity with a touch of dissonance.",
+    "A dreamy gradient and soft grain texture form the visual core, creating familiarity with a touch of dissonance. The goal was to promote a high-energy summer festival, so I used bright gradients and bold display type to reflect the music's intensity.",
     "The badge card was designed to reflect role-specific access, while surreal sticker icons like broken 8 balls, swirls, and eyeballs hinted at perception beyond the surface.",
     "Mockups for social media include countdown graphics, promotional images like “Get your ticket now” and “VIP tickets out,” quote cards, and photos from previous festivals that blur boundaries between sight, sound, and memory.",
         "Merchandise and wristbands follow the same surreal but clean aesthetic, reinforcing that the experience extends beyond the visual moment.",     
@@ -82,12 +88,7 @@ const projects = [
   imageProfile: tasksparkProfile,
   responsiveImg: responsiveImg,
   dashboardMac: dashboardMac,
-    sectionTitles: {
-    mission: "The Vision",
-    problems: "Designing the Feeling",
-    solution: "How I Brought It to Life",
-    outcome: "Reflection"
-  },
+
     sectionTitles: {
     mission: "Overview",
     problems: "Key Features",
@@ -166,9 +167,44 @@ const projects = [
   outcome:
     "Roamly was built entirely in Figma as a mobile-first concept focused on simplicity, clarity, and confidence. It’s more than a design — it reflects my approach to solving UX problems by combining visual balance with functional clarity."
 },
+{
+  id: "5",
+  title: "Thumbnail Designs",
+  custom: true,
+  behance: "",
+
+  image: thumbnail,
+  image1: thumbnail2,
+  imageDashboard: thumbnail4,
+  imageGoals: thumbnail3,
+  imageTasks: thumbnail5,
+  imageReporting: thumbnail6,
+  responsiveImg: thumbnail8,
+  dashboardMac: youtube,
+
+  sectionTitles: {
+    mission: "Overview",
+    problems: "Design Priorities",
+    outcome: "Tools & Application"
+  },
+
+  subtitle: "A curated selection of thumbnails for educational, lifestyle, and creative content",
+
+  overview: `This is a collection of thumbnails I designed for digital content, ranging from educational videos and design tutorials to travel diaries and lifestyle series. Each one is tailored to the tone and audience of the content it represents — whether it's an inspiring story about Ada Lovelace, a cozy food diary, or an in-depth design resource breakdown.`,
+
+  features: [
+    "Focused on clear hierarchy using bold typography and visual contrast to grab attention instantly.",
+    "Each thumbnail reflects the emotional tone of the content. From playful and cozy to professional and insightful.",
+    "Used consistent color palettes, grids, and brand-aligned visuals to reinforce content identity across platforms.",
+    "Some thumbnails lean editorial and cinematic, while others follow a more structured YouTube-style layout with clear text + image pairing.",
+    "Designed to communicate the subject at a glance without overwhelming the viewer, using strong focal points and minimal clutter."
+  ],
+
+  devNotes: `I approach thumbnail design as a mix of editorial layout and marketing. It’s not just about visual appeal, but about clarity, emotion, and purpose. These thumbnails are created with tools like Photoshop, Illustrator, and Canva, depending on the needs of the project. Whether it’s for a video essay, travel montage, or design tutorial, the goal is always to make someone click and feel curious before they even hit play.`
+},
 
  {
-  "id": "5",
+  "id": "6",
   "title": "SMUSHS",
   "site": "http://smushs1.infinityfreeapp.com/",
   "subtitle": "Smart Nutrition Management for Students in Stressful Environments",
@@ -193,7 +229,7 @@ const projects = [
   "outcome": "SMUSHS was demoed as part of a university health initiative and got great feedback for its clarity, simplicity, and ability to meet students where they are stressed, hungry, and in a hurry."
 },
 {
-  id: "6",
+  id: "7",
   title: "E-learning App",
   image: elearning,
   subtitle: "Helping Students and Teachers Stay Connected and Organized",
