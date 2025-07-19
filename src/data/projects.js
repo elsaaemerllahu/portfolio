@@ -33,6 +33,10 @@ import thumbnail6 from "../assets/thumbnail6.jpg";
 import thumbnail8 from "../assets/thumbnail8.jpg";
 import youtube from "../assets/youtube (1).png";
 import thumbnail from "../assets/coverTh.png";
+import form1 from "../assets/form1.png";
+import form2 from "../assets/form2.png";    
+import form3 from "../assets/form 3.png";
+import formCover from "../assets/formCover.png";
 
 const projects = [
   {
@@ -251,8 +255,34 @@ const projects = [
   ],
   outcome:
     "The E-learning App brought clarity and calm to the educational experience. It helped simplify the way students and teachers interact, making learning feel smoother, more connected, and more enjoyable."
-}
+},
+{
+  id: "8",
+  title: "FORM",
+  behance: "https://www.behance.net/gallery/230707673/Brand-Identity-Digital-Kit",
 
+  image: formCover,
+  image1: form3,
+  image2: form2,
+  image3: form1,
+
+  sectionTitles: {
+    mission: "Overview",
+    problems: "Design Priorities",
+  },
+
+  subtitle: "A brand identity built around structure, balance, and the beauty of well-made chairs.",
+
+  mission: `FORM is a fictional chair brand that focuses on clean lines, thoughtful materials, and quiet strength. This project brings the brand to life through a full identity system and social content kit — from logo and typography to Instagram posts, stories, and highlight covers. Each asset is designed to feel intentional, minimal, and emotionally grounded in form and function.`,
+
+  solution: [
+    "The custom wordmark is built to mirror the structure of a chair — the F and R come together to subtly form its shape. This makes the logo more than visual, it becomes conceptual and product-aware.",
+    "A calming, neutral palette combined with crisp typography reflects the brand's elegance, while still leaving space for personality.",
+    "Instagram post designs feature chairs in various compositions, paired with quotes, details, and styled product shots to create a scrollable visual rhythm.",
+    "Story highlight icons and branded carousels follow the same aesthetic rules: light, balanced, and uncluttered — giving the brand a cohesive voice across platforms.",
+    "This kit was designed with real-world application in mind, from launch visuals to long-term content strategies, always aiming for clarity, feeling, and function."
+  ],
+}
 
 ];
 
