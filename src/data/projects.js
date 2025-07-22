@@ -187,7 +187,7 @@ const projects = [
     solution: "Solutions",
     outcome: "Outcome"
   },
-  figma: "https://www.figma.com/design/your-link-here",
+  figma: "https://www.figma.com/design/F9i5IUv8fZVk03utmhCvGA/eKosova?node-id=1-2&t=Uc6S8JcR9cDLz8sN-1",
   mission:
     "This redesign project reimagines the eKosova app, a digital platform for accessing government services in Kosovo, with a focus on clarity, accessibility, and reduced friction. The goal was to make public services feel approachable, especially for everyday users navigating documents, applications, and official processes.",
   problems: [
