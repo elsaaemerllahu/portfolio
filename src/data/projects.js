@@ -37,6 +37,9 @@ import form1 from "../assets/form1.png";
 import form2 from "../assets/form2.png";    
 import form3 from "../assets/form 3.png";
 import formCover from "../assets/formCover.png";
+import ekosova from "../assets/ekosova.jpg";
+import redesignHome from "../assets/redesignHome.png";
+import redesignProfile from "../assets/redesignProfile.png";
 
 const projects = [
   {
@@ -173,40 +176,32 @@ const projects = [
 },
 {
   id: "5",
-  title: "Thumbnail Designs",
-  custom: true,
-  behance: "https://www.behance.net/gallery/230423959/Thumbnail-Designs",
-
-  image: thumbnail,
-  image1: thumbnail2,
-  imageDashboard: thumbnail4,
-  imageGoals: thumbnail3,
-  imageTasks: thumbnail5,
-  imageReporting: thumbnail6,
-  responsiveImg: thumbnail8,
-  dashboardMac: youtube,
-
+  title: "eKosova Redesign",
+  subtitle: "Reimagining eKosova’s Public Service Interface: A UX/UI Case Study",
+  image: ekosova,
+  image1: redesignHome,
+  image2: redesignProfile,
   sectionTitles: {
     mission: "Overview",
-    problems: "Design Priorities",
-    outcome: "Tools & Application"
+    problems: "Problems",
+    solution: "Solutions",
+    outcome: "Outcome"
   },
-
-  subtitle: "A curated selection of thumbnails for educational, lifestyle, and creative content",
-
-  overview: `This is a collection of thumbnails I designed for digital content, ranging from educational videos and design tutorials to travel diaries and lifestyle series. Each one is tailored to the tone and audience of the content it represents — whether it's an inspiring story about Ada Lovelace, a cozy food diary, or an in-depth design resource breakdown.`,
-
-  features: [
-    "Focused on clear hierarchy using bold typography and visual contrast to grab attention instantly.",
-    "Each thumbnail reflects the emotional tone of the content. From playful and cozy to professional and insightful.",
-    "Used consistent color palettes, grids, and brand-aligned visuals to reinforce content identity across platforms.",
-    "Some thumbnails lean editorial and cinematic, while others follow a more structured YouTube-style layout with clear text + image pairing.",
-    "Designed to communicate the subject at a glance without overwhelming the viewer, using strong focal points and minimal clutter."
+  figma: "https://www.figma.com/design/your-link-here",
+  mission:
+    "This redesign project reimagines the eKosova app, a digital platform for accessing government services in Kosovo, with a focus on clarity, accessibility, and reduced friction. The goal was to make public services feel approachable, especially for everyday users navigating documents, applications, and official processes.",
+  problems: [
+    "To better understand everyday pain points, I spoke with friends and family members who use the app regularly. They shared that the interface felt outdated, confusing, and hard to navigate, especially on screens like the profile or notifications.",
+    "The original interface suffered from visual clutter and inefficient use of spacing. Icons and labels were often ambiguous, leading to user confusion.",
+    "Notifications lacked hierarchy and consistency, limiting their usefulness."
   ],
-
-  devNotes: `I approach thumbnail design as a mix of editorial layout and marketing. It’s not just about visual appeal, but about clarity, emotion, and purpose. These thumbnails are created with tools like Photoshop, Illustrator, and Canva, depending on the needs of the project. Whether it’s for a video essay, travel montage, or design tutorial, the goal is always to make someone click and feel curious before they even hit play.`
+  solution: [
+    "The new design introduces clear sections, breathing room through consistent spacing, and a simplified navigation model based on user priorities. A single icon was used for all notifications.",
+    "I redesigned the profile section to feel more personal and easier to navigate. The old version was cluttered and static, so I added clear sections, consistent spacing, and a profile picture option to improve structure and give users a sense of identity."
+  ],
+  outcome:
+    "The redesigned eKosova UI presents a cleaner, more user-friendly experience rooted in structure, clarity, and purpose. It simplifies interactions for users of all ages and levels of tech familiarity, proving that public sector design can be both functional and beautiful."
 },
-
  {
   "id": "6",
   "title": "SMUSHS",
@@ -282,7 +277,42 @@ const projects = [
     "Story highlight icons and branded carousels follow the same aesthetic rules: light, balanced, and uncluttered — giving the brand a cohesive voice across platforms.",
     "This kit was designed with real-world application in mind, from launch visuals to long-term content strategies, always aiming for clarity, feeling, and function."
   ],
-}
+},
+{
+  id: "9",
+  title: "Thumbnail Designs",
+  custom: true,
+  behance: "https://www.behance.net/gallery/230423959/Thumbnail-Designs",
+
+  image: thumbnail,
+  image1: thumbnail2,
+  imageDashboard: thumbnail4,
+  imageGoals: thumbnail3,
+  imageTasks: thumbnail5,
+  imageReporting: thumbnail6,
+  responsiveImg: thumbnail8,
+  dashboardMac: youtube,
+
+  sectionTitles: {
+    mission: "Overview",
+    problems: "Design Priorities",
+    outcome: "Tools & Application"
+  },
+
+  subtitle: "A curated selection of thumbnails for educational, lifestyle, and creative content",
+
+  overview: `This is a collection of thumbnails I designed for digital content, ranging from educational videos and design tutorials to travel diaries and lifestyle series. Each one is tailored to the tone and audience of the content it represents — whether it's an inspiring story about Ada Lovelace, a cozy food diary, or an in-depth design resource breakdown.`,
+
+  features: [
+    "Focused on clear hierarchy using bold typography and visual contrast to grab attention instantly.",
+    "Each thumbnail reflects the emotional tone of the content. From playful and cozy to professional and insightful.",
+    "Used consistent color palettes, grids, and brand-aligned visuals to reinforce content identity across platforms.",
+    "Some thumbnails lean editorial and cinematic, while others follow a more structured YouTube-style layout with clear text + image pairing.",
+    "Designed to communicate the subject at a glance without overwhelming the viewer, using strong focal points and minimal clutter."
+  ],
+
+  devNotes: `I approach thumbnail design as a mix of editorial layout and marketing. It’s not just about visual appeal, but about clarity, emotion, and purpose. These thumbnails are created with tools like Photoshop, Illustrator, and Canva, depending on the needs of the project. Whether it’s for a video essay, travel montage, or design tutorial, the goal is always to make someone click and feel curious before they even hit play.`
+},
 
 ];
 
