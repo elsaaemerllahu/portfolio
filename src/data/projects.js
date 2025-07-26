@@ -229,30 +229,6 @@ const projects = [
 },
 {
   id: "7",
-  title: "E-learning App",
-  image: elearning,
-  subtitle: "Helping Students and Teachers Stay Connected and Organized",
-  sectionTitles: {
-    mission: "Overview",
-    problems: "Challenges in Online Learning",
-    solution: "Solutions",
-    outcome: "Outcome"
-  },
-  description: "Helping Students and Teachers Stay Connected and Organized",
-  mission:
-    "This E-learning App was born from a simple idea: make online education easier and more human. We wanted to create a space where students and teachers could connect, stay organized, and access everything they need, without stress or confusion.",
-  problems:[
-    "Online learning can feel scattered. Students often struggle to find materials or keep track of deadlines, while teachers face barriers in keeping communication streamlined. Many tools feel clunky or overwhelming, and interactive content is often hidden behind awkward menus or complex flows."
-  ],
-  solution:
-  [
-    "We designed a clean, intuitive platform where everything feels accessible. Course materials are available, messaging is built right in, and a smart calendar makes it easy to stay on top of assignments and exams. The design leans into simplicity, balancing functionality with a soft, welcoming tone that works for both students and teachers."
-  ],
-  outcome:
-    "The E-learning App brought clarity and calm to the educational experience. It helped simplify the way students and teachers interact, making learning feel smoother, more connected, and more enjoyable."
-},
-{
-  id: "8",
   title: "FORM",
   behance: "https://www.behance.net/gallery/230707673/Brand-Identity-Digital-Kit",
 
@@ -279,40 +255,64 @@ const projects = [
   ],
 },
 {
-  id: "9",
-  title: "Thumbnail Designs",
-  custom: true,
-  behance: "https://www.behance.net/gallery/230423959/Thumbnail-Designs",
-
-  image: thumbnail,
-  image1: thumbnail2,
-  imageDashboard: thumbnail4,
-  imageGoals: thumbnail3,
-  imageTasks: thumbnail5,
-  imageReporting: thumbnail6,
-  responsiveImg: thumbnail8,
-  dashboardMac: youtube,
-
+  id: "8",
+  title: "E-learning App",
+  image: elearning,
+  subtitle: "Helping Students and Teachers Stay Connected and Organized",
   sectionTitles: {
     mission: "Overview",
-    problems: "Design Priorities",
-    outcome: "Tools & Application"
+    problems: "Challenges in Online Learning",
+    solution: "Solutions",
+    outcome: "Outcome"
   },
-
-  subtitle: "A curated selection of thumbnails for educational, lifestyle, and creative content",
-
-  overview: `This is a collection of thumbnails I designed for digital content, ranging from educational videos and design tutorials to travel diaries and lifestyle series. Each one is tailored to the tone and audience of the content it represents — whether it's an inspiring story about Ada Lovelace, a cozy food diary, or an in-depth design resource breakdown.`,
-
-  features: [
-    "Focused on clear hierarchy using bold typography and visual contrast to grab attention instantly.",
-    "Each thumbnail reflects the emotional tone of the content. From playful and cozy to professional and insightful.",
-    "Used consistent color palettes, grids, and brand-aligned visuals to reinforce content identity across platforms.",
-    "Some thumbnails lean editorial and cinematic, while others follow a more structured YouTube-style layout with clear text + image pairing.",
-    "Designed to communicate the subject at a glance without overwhelming the viewer, using strong focal points and minimal clutter."
+  description: "Helping Students and Teachers Stay Connected and Organized",
+  mission:
+    "This E-learning App was born from a simple idea: make online education easier and more human. We wanted to create a space where students and teachers could connect, stay organized, and access everything they need, without stress or confusion.",
+  problems:[
+    "Online learning can feel scattered. Students often struggle to find materials or keep track of deadlines, while teachers face barriers in keeping communication streamlined. Many tools feel clunky or overwhelming, and interactive content is often hidden behind awkward menus or complex flows."
   ],
-
-  devNotes: `I approach thumbnail design as a mix of editorial layout and marketing. It’s not just about visual appeal, but about clarity, emotion, and purpose. These thumbnails are created with tools like Photoshop, Illustrator, and Canva, depending on the needs of the project. Whether it’s for a video essay, travel montage, or design tutorial, the goal is always to make someone click and feel curious before they even hit play.`
+  solution:
+  [
+    "We designed a clean, intuitive platform where everything feels accessible. Course materials are available, messaging is built right in, and a smart calendar makes it easy to stay on top of assignments and exams. The design leans into simplicity, balancing functionality with a soft, welcoming tone that works for both students and teachers."
+  ],
+  outcome:
+    "The E-learning App brought clarity and calm to the educational experience. It helped simplify the way students and teachers interact, making learning feel smoother, more connected, and more enjoyable."
 },
+// {
+//   id: "9",
+//   title: "Thumbnail Designs",
+//   custom: true,
+//   behance: "https://www.behance.net/gallery/230423959/Thumbnail-Designs",
+
+//   image: thumbnail,
+//   image1: thumbnail2,
+//   imageDashboard: thumbnail4,
+//   imageGoals: thumbnail3,
+//   imageTasks: thumbnail5,
+//   imageReporting: thumbnail6,
+//   responsiveImg: thumbnail8,
+//   dashboardMac: youtube,
+
+//   sectionTitles: {
+//     mission: "Overview",
+//     problems: "Design Priorities",
+//     outcome: "Tools & Application"
+//   },
+
+//   subtitle: "A curated selection of thumbnails for educational, lifestyle, and creative content",
+
+//   overview: `This is a collection of thumbnails I designed for digital content, ranging from educational videos and design tutorials to travel diaries and lifestyle series. Each one is tailored to the tone and audience of the content it represents — whether it's an inspiring story about Ada Lovelace, a cozy food diary, or an in-depth design resource breakdown.`,
+
+//   features: [
+//     "Focused on clear hierarchy using bold typography and visual contrast to grab attention instantly.",
+//     "Each thumbnail reflects the emotional tone of the content. From playful and cozy to professional and insightful.",
+//     "Used consistent color palettes, grids, and brand-aligned visuals to reinforce content identity across platforms.",
+//     "Some thumbnails lean editorial and cinematic, while others follow a more structured YouTube-style layout with clear text + image pairing.",
+//     "Designed to communicate the subject at a glance without overwhelming the viewer, using strong focal points and minimal clutter."
+//   ],
+
+//   devNotes: `I approach thumbnail design as a mix of editorial layout and marketing. It’s not just about visual appeal, but about clarity, emotion, and purpose. These thumbnails are created with tools like Photoshop, Illustrator, and Canva, depending on the needs of the project. Whether it’s for a video essay, travel montage, or design tutorial, the goal is always to make someone click and feel curious before they even hit play.`
+// },
 
 ];
 
