@@ -35,9 +35,9 @@ const handleConnectClick = () => {
           {/* <span className="dot"></span> */}
           Elsa Emërllahu
         </p>
-        <h1 className="name">Frontend Developer</h1>
+        <h1 className="name">Software Developer</h1>
         <p className="description">
-          Frontend developer and graphic designer from Gjilan, Kosovo.
+          Software developer and graphic designer from Gjilan, Kosovo.
           {/* <br />
           Skilled in HTML/CSS, PHP, React, Photoshop, Illustrator, and more. */}
         </p>

@@ -31,7 +31,7 @@ const About = () => {
                   About Me
                 </h1>
                 <p>
-                  I'm a front-end developer and graphic designer who loves
+                  I'm a software developer and graphic designer who loves
                   combining creativity with clean, functional design.
                 </p>
               </div>
@@ -47,8 +47,7 @@ const About = () => {
             </div>
             <div className="about-bio">
               <p className="about-description">
-                As a Computer Science student at "Kadri Zeka" University, I specialize in building visually engaging and user-focused websites. My main toolkit includes React for dynamic front-end experiences and PHP for handling powerful back-end logic.
-
+                As a Computer Science student at "Kadri Zeka" University, I specialize in building visually engaging and user-focused websites.My main toolkit includes the MERN stack — MongoDB, Express, React, and Node.js — for creating full-stack solutions. I also have experience with PHP for server-side development when needed.
                 With a strong interest in UI/UX, I often complement my development work with design tools like Adobe Photoshop and Illustrator, blending code with creativity to deliver polished, responsive web interfaces.
               </p>
               <p className="about-description">
